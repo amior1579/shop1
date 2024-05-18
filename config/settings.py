@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # apps
-    'home'
+    'home',
+    'site_setting'
 ]
 
 MIDDLEWARE = [
@@ -121,7 +122,7 @@ USE_TZ = True
 STATIC_URL = 'assets/'
 
 STATICFILES_DIRS = [
-    BASE_DIR / "src",
+    BASE_DIR / "assets",
 ]
 
 # Default primary key field type
