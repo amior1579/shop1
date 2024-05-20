@@ -40,7 +40,10 @@ INSTALLED_APPS = [
 
     # apps
     'home',
-    'site_setting'
+    'site_setting',
+    
+    # package
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
